@@ -1,0 +1,19 @@
+DerivedData*/
+build/
+Release/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+*.xcarchive/
+*.xcresult/
+*.ipa
+*.dSYM/
+*.mobileprovision
+*.p12
+*.p8
+.env
+.env.*
+!.env.example
+
+# Local simulator captures and App Store artwork
+Screenshots/

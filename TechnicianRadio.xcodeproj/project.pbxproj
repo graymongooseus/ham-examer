@@ -1,0 +1,182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200000000000000000000001 /* TechnicianRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000001 /* TechnicianRadioApp.swift */; };
+		200000000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000002 /* Models.swift */; };
+		200000000000000000000003 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000003 /* AppModel.swift */; };
+		200000000000000000000004 /* QuestionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000004 /* QuestionStore.swift */; };
+		200000000000000000000005 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000005 /* Theme.swift */; };
+		200000000000000000000006 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000006 /* OnboardingView.swift */; };
+		200000000000000000000007 /* QuestionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000007 /* QuestionViews.swift */; };
+		200000000000000000000008 /* LearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000008 /* LearningView.swift */; };
+		200000000000000000000009 /* ExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000009 /* ExamView.swift */; };
+		20000000000000000000000A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000A /* AboutView.swift */; };
+		20000000000000000000000B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000B /* MainView.swift */; };
+		20000000000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000C /* Assets.xcassets */; };
+		20000000000000000000000D /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000D /* questions.json */; };
+		20000000000000000000000E /* zh-Hans.json in Resources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000E /* zh-Hans.json */; };
+		20000000000000000000000F /* ko.json in Resources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000F /* ko.json */; };
+		200000000000000000000010 /* vi.json in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000010 /* vi.json */; };
+		200000000000000000000011 /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000011 /* es.json */; };
+		200000000000000000000012 /* t-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000012 /* t-1.jpg */; };
+		200000000000000000000013 /* t-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000013 /* t-2.jpg */; };
+		200000000000000000000014 /* t-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000014 /* t-3.jpg */; };
+		200000000000000000000015 /* TechnicianRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000015 /* TechnicianRadioTests.swift */; };
+		200000000000000000000016 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000D /* questions.json */; };
+		200000000000000000000017 /* zh-Hans.json in Resources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000E /* zh-Hans.json */; };
+		200000000000000000000018 /* ko.json in Resources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000000F /* ko.json */; };
+		200000000000000000000019 /* vi.json in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000010 /* vi.json */; };
+		20000000000000000000001A /* es.json in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000011 /* es.json */; };
+		20000000000000000000001B /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000018 /* en.json */; };
+		20000000000000000000001C /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000018 /* en.json */; };
+		20000000000000000000001D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000019 /* PrivacyInfo.xcprivacy */; };
+		20000000000000000000001E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000001E /* SettingsView.swift */; };
+		20000000000000000000001F /* FlashcardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30000000000000000000001F /* FlashcardsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900000000000000000000001 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000001;
+			remoteInfo = TechnicianRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		300000000000000000000001 /* TechnicianRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicianRadioApp.swift; sourceTree = "<group>"; };
+		300000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		300000000000000000000003 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		300000000000000000000004 /* QuestionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStore.swift; sourceTree = "<group>"; };
+		300000000000000000000005 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		300000000000000000000006 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		300000000000000000000007 /* QuestionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViews.swift; sourceTree = "<group>"; };
+		300000000000000000000008 /* LearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningView.swift; sourceTree = "<group>"; };
+		300000000000000000000009 /* ExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamView.swift; sourceTree = "<group>"; };
+		30000000000000000000000A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		30000000000000000000000B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		30000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30000000000000000000000D /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		30000000000000000000000E /* zh-Hans.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "zh-Hans.json"; sourceTree = "<group>"; };
+		30000000000000000000000F /* ko.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ko.json; sourceTree = "<group>"; };
+		300000000000000000000010 /* vi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vi.json; sourceTree = "<group>"; };
+		300000000000000000000011 /* es.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = es.json; sourceTree = "<group>"; };
+		300000000000000000000012 /* t-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "t-1.jpg"; sourceTree = "<group>"; };
+		300000000000000000000013 /* t-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "t-2.jpg"; sourceTree = "<group>"; };
+		300000000000000000000014 /* t-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "t-3.jpg"; sourceTree = "<group>"; };
+		300000000000000000000015 /* TechnicianRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicianRadioTests.swift; sourceTree = "<group>"; };
+		300000000000000000000016 /* TechnicianRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicianRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300000000000000000000017 /* TechnicianRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnicianRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		300000000000000000000018 /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		300000000000000000000019 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		30000000000000000000001E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30000000000000000000001F /* FlashcardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		500000000000000000000002 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		500000000000000000000005 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		400000000000000000000001 = {
+			isa = PBXGroup;
+			children = (400000000000000000000002 /* App */, 400000000000000000000009 /* Tests */, 40000000000000000000000A /* Products */);
+			sourceTree = "<group>";
+		};
+		400000000000000000000002 /* App */ = {
+			isa = PBXGroup;
+			children = (300000000000000000000001 /* TechnicianRadioApp.swift */, 400000000000000000000003 /* Models */, 400000000000000000000004 /* Services */, 400000000000000000000005 /* Views */, 30000000000000000000000C /* Assets.xcassets */, 400000000000000000000006 /* Resources */);
+			name = TechnicianRadio;
+			path = ".";
+			sourceTree = "<group>";
+		};
+		400000000000000000000003 /* Models */ = {isa = PBXGroup; children = (300000000000000000000002 /* Models.swift */); path = Models; sourceTree = "<group>"; };
+		400000000000000000000004 /* Services */ = {isa = PBXGroup; children = (300000000000000000000003 /* AppModel.swift */, 300000000000000000000004 /* QuestionStore.swift */); path = Services; sourceTree = "<group>"; };
+		400000000000000000000005 /* Views */ = {isa = PBXGroup; children = (300000000000000000000005 /* Theme.swift */, 300000000000000000000006 /* OnboardingView.swift */, 300000000000000000000007 /* QuestionViews.swift */, 300000000000000000000008 /* LearningView.swift */, 300000000000000000000009 /* ExamView.swift */, 30000000000000000000000A /* AboutView.swift */, 30000000000000000000000B /* MainView.swift */, 30000000000000000000001E /* SettingsView.swift */, 30000000000000000000001F /* FlashcardsView.swift */); path = Views; sourceTree = "<group>"; };
+		400000000000000000000006 /* Resources */ = {isa = PBXGroup; children = (300000000000000000000019 /* PrivacyInfo.xcprivacy */, 30000000000000000000000D /* questions.json */, 400000000000000000000007 /* Translations */, 400000000000000000000008 /* Diagrams */); path = Resources; sourceTree = "<group>"; };
+		400000000000000000000007 /* Translations */ = {isa = PBXGroup; children = (300000000000000000000018 /* en.json */, 30000000000000000000000E /* zh-Hans.json */, 30000000000000000000000F /* ko.json */, 300000000000000000000010 /* vi.json */, 300000000000000000000011 /* es.json */); path = Translations; sourceTree = "<group>"; };
+		400000000000000000000008 /* Diagrams */ = {isa = PBXGroup; children = (300000000000000000000012 /* t-1.jpg */, 300000000000000000000013 /* t-2.jpg */, 300000000000000000000014 /* t-3.jpg */); path = Diagrams; sourceTree = "<group>"; };
+		400000000000000000000009 /* Tests */ = {isa = PBXGroup; children = (300000000000000000000015 /* TechnicianRadioTests.swift */); name = TechnicianRadioTests; path = Tests; sourceTree = "<group>"; };
+		40000000000000000000000A /* Products */ = {isa = PBXGroup; children = (300000000000000000000016 /* TechnicianRadio.app */, 300000000000000000000017 /* TechnicianRadioTests.xctest */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000001 /* TechnicianRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700000000000000000000002;
+			buildPhases = (500000000000000000000001 /* Sources */, 500000000000000000000002 /* Frameworks */, 500000000000000000000003 /* Resources */);
+			buildRules = ();
+			dependencies = ();
+			name = TechnicianRadio;
+			productName = TechnicianRadio;
+			productReference = 300000000000000000000016 /* TechnicianRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100000000000000000000002 /* TechnicianRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700000000000000000000003;
+			buildPhases = (500000000000000000000004 /* Sources */, 500000000000000000000005 /* Frameworks */, 500000000000000000000006 /* Resources */);
+			buildRules = ();
+			dependencies = (900000000000000000000002 /* PBXTargetDependency */);
+			name = TechnicianRadioTests;
+			productName = TechnicianRadioTests;
+			productReference = 300000000000000000000017 /* TechnicianRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2700; LastUpgradeCheck = 2700; TargetAttributes = {100000000000000000000001 = {CreatedOnToolsVersion = 27.0; }; 100000000000000000000002 = {CreatedOnToolsVersion = 27.0; TestTargetID = 100000000000000000000001; }; }; };
+			buildConfigurationList = 700000000000000000000001;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 400000000000000000000001;
+			productRefGroup = 40000000000000000000000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (100000000000000000000001 /* TechnicianRadio */, 100000000000000000000002 /* TechnicianRadioTests */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		500000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (20000000000000000000001D, 20000000000000000000000C, 20000000000000000000000D, 20000000000000000000001B, 20000000000000000000000E, 20000000000000000000000F, 200000000000000000000010, 200000000000000000000011, 200000000000000000000012, 200000000000000000000013, 200000000000000000000014); runOnlyForDeploymentPostprocessing = 0; };
+		500000000000000000000006 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (200000000000000000000016, 20000000000000000000001C, 200000000000000000000017, 200000000000000000000018, 200000000000000000000019, 20000000000000000000001A); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		500000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (20000000000000000000001E, 20000000000000000000001F, 200000000000000000000001, 200000000000000000000002, 200000000000000000000003, 200000000000000000000004, 200000000000000000000005, 200000000000000000000006, 200000000000000000000007, 200000000000000000000008, 200000000000000000000009, 20000000000000000000000A, 20000000000000000000000B); runOnlyForDeploymentPostprocessing = 0; };
+		500000000000000000000004 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (200000000000000000000015); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		900000000000000000000002 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 100000000000000000000001 /* TechnicianRadio */; targetProxy = 900000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		600000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)"); IPHONEOS_DEPLOYMENT_TARGET = 17.0; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		600000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_BOOL_CONVERSION = YES; CLANG_WARN_COMMA = YES; CLANG_WARN_CONSTANT_CONVERSION = YES; CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CLANG_WARN_EMPTY_BODY = YES; CLANG_WARN_ENUM_CONVERSION = YES; CLANG_WARN_INFINITE_RECURSION = YES; CLANG_WARN_INT_CONVERSION = YES; CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES; CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES; CLANG_WARN_OBJC_LITERAL_CONVERSION = YES; CLANG_WARN_RANGE_LOOP_ANALYSIS = YES; CLANG_WARN_STRICT_PROTOTYPES = YES; CLANG_WARN_SUSPICIOUS_MOVE = YES; CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE; COPY_PHASE_STRIP = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MTL_ENABLE_DEBUG_INFO = NO; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; }; name = Release; };
+		600000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 2; DEVELOPMENT_TEAM = 5HL85C4694; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Radio Study"; INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; MARKETING_VERSION = 1.1; PRODUCT_BUNDLE_IDENTIFIER = com.liugongming.TechnicianRadio; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		600000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 2; DEVELOPMENT_TEAM = 5HL85C4694; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Radio Study"; INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; MARKETING_VERSION = 1.1; PRODUCT_BUNDLE_IDENTIFIER = com.liugongming.TechnicianRadio; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+		600000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.liugongming.TechnicianRadioTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechnicianRadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechnicianRadio"; }; name = Debug; };
+		600000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.liugongming.TechnicianRadioTests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechnicianRadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechnicianRadio"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (600000000000000000000001 /* Debug */, 600000000000000000000002 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		700000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (600000000000000000000003 /* Debug */, 600000000000000000000004 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		700000000000000000000003 = {isa = XCConfigurationList; buildConfigurations = (600000000000000000000005 /* Debug */, 600000000000000000000006 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 800000000000000000000001 /* Project object */;
+}
