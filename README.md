@@ -44,7 +44,7 @@ Start with Technician. Keep learning as your radio ambitions grow.
 
 General and Amateur Extra are future releases; their question pools and exam modes are not included yet. Release dates will be announced when they are ready.
 
-**[Watch this repository for updates](https://github.com/graymongooseus/ham-examer/subscription)** or **[share feedback and feature requests](https://github.com/graymongooseus/ham-examer/issues)**.
+**Watch this repository for updates** using the Watch menu above, or **[share feedback and feature requests](https://github.com/graymongooseus/ham-examer/issues)**.
 
 ## Try the iOS project
 
