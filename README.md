@@ -52,6 +52,8 @@ The source is available here for local builds. Open `TechnicianRadio.xcodeproj` 
 
 **[Build and verification guide →](docs/BUILDING.md)**
 
+[Privacy policy](PRIVACY.md) · [Support](https://technician-radio-study-support.liugongming.chatgpt.site/)
+
 App Store and public TestFlight download links will be added when available.
 
 ## Built on the official questions
