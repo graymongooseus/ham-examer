@@ -171,7 +171,7 @@ enum AppTheme: String, Codable, CaseIterable, Identifiable {
     case light, dark
 
     var id: String { rawValue }
-    var name: String { self == .light ? "Day · 白天" : "Night · 黑夜" }
+    var name: String { self == .light ? "Day" : "Night" }
     var symbol: String { self == .light ? "sun.max" : "moon" }
 }
 

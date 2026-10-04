@@ -18,7 +18,7 @@ struct SettingsView: View {
                         BrandHeader(eyebrow: "PREFERENCES", title: "System Settings")
 
                         VStack(alignment: .leading, spacing: 14) {
-                            Label("Theme · 主题", systemImage: "circle.lefthalf.filled")
+                            Label("Theme", systemImage: "circle.lefthalf.filled")
                                 .font(.title3.bold()).foregroundStyle(RadioTheme.text)
                             ForEach(AppTheme.allCases) { theme in
                                 Button {
@@ -44,10 +44,10 @@ struct SettingsView: View {
                         VStack(alignment: .leading, spacing: 14) {
                             Label("App & Developer", systemImage: "info.circle")
                                 .font(.title3.bold()).foregroundStyle(RadioTheme.text)
-                            detail("Version · 版本", value: version)
-                            detail("Developer · 开发者", value: "Gray Mongoose")
+                            detail("Version", value: version)
+                            detail("Developer", value: "Gray Mongoose")
                             VStack(alignment: .leading, spacing: 6) {
-                                Text("Contact · 联系邮箱")
+                                Text("Contact")
                                     .font(.subheadline).foregroundStyle(RadioTheme.muted)
                                 Link("ham@graymongoose.us", destination: URL(string: "mailto:ham@graymongoose.us")!)
                                     .font(.headline).tint(RadioTheme.cyan)
@@ -58,12 +58,10 @@ struct SettingsView: View {
                         .padding(20).radioPanel()
 
                         VStack(alignment: .leading, spacing: 10) {
-                            Label("Privacy · 隐私", systemImage: "lock.shield")
+                            Label("Privacy", systemImage: "lock.shield")
                                 .font(.title3.bold()).foregroundStyle(RadioTheme.text)
-                            Text("所有信息都保存在本地手机，我们不收集任何个人资料。")
-                                .foregroundStyle(RadioTheme.text)
                             Text("All information is stored locally on your phone. We do not collect any personal information.")
-                                .font(.footnote).foregroundStyle(RadioTheme.muted)
+                                .foregroundStyle(RadioTheme.text)
                         }
                         .padding(20).radioPanel()
                     }

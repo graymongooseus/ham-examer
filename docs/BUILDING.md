@@ -20,11 +20,13 @@ For a physical device, select your own development team and a unique bundle iden
 
 ## Command-line build
 
+Keep build caches outside the project and cloud-synced folders. Xcode uses its standard Derived Data location under `~/Library/Developer/Xcode/DerivedData`; command-line builds and tests below use the `HAMExamHelper` directory there. Use the same `-derivedDataPath` option when archiving.
+
 ```sh
 xcodebuild -project TechnicianRadio.xcodeproj \
   -scheme TechnicianRadio \
   -destination 'generic/platform=iOS Simulator' \
-  -derivedDataPath DerivedData \
+  -derivedDataPath "$HOME/Library/Developer/Xcode/DerivedData/HAMExamHelper" \
   CODE_SIGNING_ALLOWED=NO build
 ```
 
@@ -44,7 +46,7 @@ List installed devices with `xcrun simctl list devices available`, then substitu
 xcodebuild -project TechnicianRadio.xcodeproj \
   -scheme TechnicianRadio \
   -destination 'platform=iOS Simulator,name=iPhone 18 Pro' \
-  -derivedDataPath DerivedData \
+  -derivedDataPath "$HOME/Library/Developer/Xcode/DerivedData/HAMExamHelper" \
   CODE_SIGNING_ALLOWED=NO test
 ```
 
