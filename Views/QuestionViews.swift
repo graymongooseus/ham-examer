@@ -33,7 +33,22 @@ struct QuestionHeading: View {
                 }
                 .padding(.top, 2)
             }
+            QuestionShareButton(question: question, language: language)
         }
+    }
+}
+
+struct QuestionShareButton: View {
+    let question: Question
+    let language: AuxiliaryLanguage
+
+    var body: some View {
+        ShareLink(item: question.shareText(explanationLanguage: language)) {
+            Label("Share question", systemImage: "square.and.arrow.up")
+        }
+        .buttonStyle(SecondaryButtonStyle())
+        .accessibilityLabel("Share question \(question.id)")
+        .accessibilityHint("Share the question and choices as text to ask for an explanation")
     }
 }
 

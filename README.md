@@ -26,7 +26,9 @@ Save questions to your flashcards and return to them for focused review. Build a
 
 ### Put your preparation to the test
 
-Take a timed **35-question mock exam**, with one question from each official group and shuffled answer choices. Answers stay hidden until submission. Review your results against the **26 out of 35** passing threshold, then revisit every question.
+Take a timed **35-question mock exam**, with one question from each official group and answer choices in the official question pool order. Answers stay hidden until submission. Review your results against the **26 out of 35** passing threshold, then revisit every question.
+
+Use **Share question** in Learn, Flash Cards, or Mock Exam to share the English question and A–D choices as plain text. An explanation request in your chosen study language is included, ready for a supporting AI app or to copy into a chat.
 
 ### Pick up wherever you left off
 

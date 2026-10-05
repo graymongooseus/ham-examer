@@ -103,8 +103,7 @@ final class AppModel: ObservableObject {
     }
 
     func learningOptionOrder(for question: Question) -> [Int] {
-        var generator = Mulberry32(seed: seedFromString("\(question.id):learn"))
-        return generator.shuffled(Array(question.answers.indices))
+        Array(question.answers.indices)
     }
 
     func startExam(seed: UInt32 = UInt32.random(in: UInt32.min...UInt32.max)) {
@@ -117,7 +116,7 @@ final class AppModel: ObservableObject {
         let items = officialGroupOrder.compactMap { group -> ExamItem? in
             guard let candidates = groups[group], !candidates.isEmpty else { return nil }
             let question = candidates[generator.index(upperBound: candidates.count)]
-            return ExamItem(questionID: question.id, optionOrder: generator.shuffled(Array(question.answers.indices)))
+            return ExamItem(questionID: question.id, optionOrder: Array(question.answers.indices))
         }
         guard items.count == pool.meta.groupCount else {
             loadError = "Could not generate one question from every official group."
@@ -234,8 +233,14 @@ final class AppModel: ObservableObject {
             clearExam()
             return
         }
+        let originalExam = exam
+        // Answers already store pool indices, so restoring the official display order preserves scores.
+        exam.items = zip(exam.items, questions).map { item, question in
+            ExamItem(questionID: item.questionID, optionOrder: Array(question.answers.indices))
+        }
         exam.currentIndex = min(max(0, exam.currentIndex), exam.items.count - 1)
         state.exam = exam
+        if exam != originalExam { persist() }
     }
 
     private func load(_ language: AuxiliaryLanguage) {
@@ -264,12 +269,4 @@ final class AppModel: ObservableObject {
         state.updatedAt = now
     }
 
-    private func seedFromString(_ value: String) -> UInt32 {
-        var hash: UInt32 = 2_166_136_261
-        for byte in value.utf8 {
-            hash ^= UInt32(byte)
-            hash = hash &* 16_777_619
-        }
-        return hash
-    }
 }

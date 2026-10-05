@@ -37,7 +37,7 @@ struct ExamView: View {
                 VStack(spacing: 18) {
                     Text("OFFICIAL BLUEPRINT").font(.caption.weight(.heavy)).tracking(1.4).foregroundStyle(RadioTheme.amber)
                     Text("35 groups. One question each.").font(.largeTitle.bold()).foregroundStyle(RadioTheme.text).multilineTextAlignment(.center)
-                    Text("Choices are shuffled while their official answer mappings stay intact. Correct answers remain hidden until you submit.")
+                    Text("Choices follow the official question pool order. Correct answers remain hidden until you submit.")
                         .font(.body).foregroundStyle(RadioTheme.muted).multilineTextAlignment(.center)
                     HStack(spacing: 0) {
                         examFact("35", "questions")
@@ -177,6 +177,7 @@ struct ExamView: View {
                 Label(correct ? "Correct" : "Incorrect", systemImage: correct ? "checkmark.circle.fill" : "xmark.circle.fill")
                     .font(.caption.weight(.bold)).foregroundStyle(correct ? RadioTheme.green : RadioTheme.red)
             }
+            QuestionShareButton(question: question, language: language)
             Text(question.question).font(.headline).foregroundStyle(RadioTheme.text)
             if language != .english {
                 Text(content.question).font(.subheadline).foregroundStyle(RadioTheme.muted)

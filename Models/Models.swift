@@ -39,6 +39,19 @@ struct Question: Codable, Identifiable, Hashable {
         return URL(fileURLWithPath: figure).deletingPathExtension().lastPathComponent
     }
 
+    func shareText(explanationLanguage: AuxiliaryLanguage) -> String {
+        let order = Array(answers.indices)
+        let choices = answers.enumerated().map { index, answer in
+            "\(displayLetter(for: index, in: order) ?? "—"). \(answer)"
+        }.joined(separator: "\n")
+        var text = "US Amateur Radio Technician (Element 2) — \(id)\n\n\(question)\n\n\(choices)"
+        if let diagram = diagramName {
+            text += "\n\nDiagram: \(diagram.uppercased()) (refer to the official diagram shown in the app)."
+        }
+        text += "\n\nPlease explain the correct answer and why the other choices are incorrect. Respond in \(explanationLanguage.name)."
+        return text
+    }
+
     /// Stored answers use original indices; letters belong to the displayed order.
     func displayLetter(for originalIndex: Int, in optionOrder: [Int]) -> String? {
         let letters = ["A", "B", "C", "D"]
@@ -232,14 +245,6 @@ struct Mulberry32 {
         Int(nextUnit() * Double(upperBound))
     }
 
-    mutating func shuffled(_ values: [Int]) -> [Int] {
-        var result = values
-        guard result.count > 1 else { return result }
-        for index in stride(from: result.count - 1, through: 1, by: -1) {
-            result.swapAt(index, self.index(upperBound: index + 1))
-        }
-        return result
-    }
 }
 
 // Exact JSON shape accepted by the companion website's verified v2 progress API.
